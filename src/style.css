@@ -1,0 +1,127 @@
+:root {
+  --ancho-menu: 250px;
+  --azul-hover: #b4e4c9;
+  --fondo-1: #202022;
+  --fondo-menu: #151419;
+  --fondo-card: #CACACA;
+  --fondo-bage: #012E40;
+  --bage-blanco: #f2f2f2;
+  --azul-claro: #00747C;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.azul {
+  font-weight: bold;
+  color: white;
+  background-color: var(--azul-claro) !important;
+}
+
+body {
+  background-color: #23242a;
+}
+
+.interior-1 {
+  background-color: #2B3467;
+}
+
+.interior-2 {
+  background-color: #BAD7E9;
+}
+
+.txt-blanco {
+  color: #ffffff;
+}
+
+.txt-blanco::placeholder {
+  color: white;
+}
+
+
+.bold {
+  font-weight: bolder;
+  line-height: 25px;
+}
+
+.texto-azul {
+  color: var(--azul-claro) !important;
+}
+
+.margen-15 {
+  margin-left: 15%;
+}
+
+.margen-15-d {
+  margin-right: 15%;
+}
+
+.fs-7 {
+  font-size: 0.875rem;
+  font-weight: bolder;
+}
+
+.margen-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.txt-der {
+  text-align: end;
+}
+
+.max-50 {
+  max-width: 65%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.input-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px 0px 0px 8px;
+  min-width: calc(100vw - 69vw);
+  max-width: calc(100vw - 70vw);
+
+}
+
+.txt-azul {
+  color: #BAD7E9;
+  align-self: flex-end;
+}
+
+.card-form {
+  min-width: 59vw;
+  max-width: 60vw;
+  border-radius: 8px;
+}
+
+
+.img-bordo {
+  border-radius: 8px 0px 0px 8px;
+  min-width: calc(100vw - 69vw);
+  max-width: calc(100vw - 70vw);
+}
+
+.centrado-absoluto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.hijo {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contenedor {
+  display: table;
+  height: 100%;
+}
