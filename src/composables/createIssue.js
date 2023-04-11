@@ -43,7 +43,7 @@ export const issuePost = () => {
                 },
             };
             const res = await axios.post(
-                'http://localhost:3000/crear',
+                'https://jira-api-node-js.onrender.com/crear',
                 bodyData
             ).then(async (response) => {
                 if (body.file) {
@@ -106,7 +106,7 @@ export const issuePost = () => {
                 },
             };
             const res = await axios.post(
-                'http://localhost:3000/crear',
+                'https://jira-api-node-js.onrender.com/crear',
                 bodyData
             ).then(async (response) => {
 
