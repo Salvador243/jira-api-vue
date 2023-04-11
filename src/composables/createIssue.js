@@ -11,6 +11,7 @@ export const issuePost = () => {
     const createIsuue = async (body) => {
         loading.value = true;
         try {
+            console.log("YA PASO POR ACA")
             $("#pantalla-carga").removeClass("none");
             const bodyData = {
                 "fields": {
@@ -51,7 +52,7 @@ export const issuePost = () => {
                     formData.append('id', response.id);
                     formData.append('file', body.file[0]);
 
-                    const file = await axios.post('https://jira-api-spring.azurewebsites.net/0/cargar', formData)
+                    const file = await axios.post('https://jira-api-spring.azurewebsites.net/cargar', formData)
                         .then(res => {
                         })
                         .catch(err => {
@@ -115,7 +116,7 @@ export const issuePost = () => {
                     formData.append('id', response.data.key);
                     formData.append('file', body.file[0]);
 
-                    const file = await axios.post('https://jira-api-spring.azurewebsites.net//cargar', formData)
+                    const file = await axios.post('https://jira-api-spring.azurewebsites.net/cargar', formData)
                         .then(res => {
                         })
                         .catch(err => {
