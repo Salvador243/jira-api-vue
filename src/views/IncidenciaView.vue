@@ -23,6 +23,8 @@ const formData = ref({
     file: '',
 });
 
+alert("ok")
+
 function validateImageInput() {
     const files = imageInput.value.files
     if (files.length > 0) {
