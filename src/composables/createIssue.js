@@ -11,7 +11,6 @@ export const issuePost = () => {
     const createIsuue = async (body) => {
         loading.value = true;
         try {
-            console.log("YA PASO POR ACA")
             $("#pantalla-carga").removeClass("none");
             const bodyData = {
                 "fields": {
