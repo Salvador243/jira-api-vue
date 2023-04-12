@@ -48,14 +48,9 @@ export const issuePost = () => {
                 bodyData
             ).then(async (response) => {
                 if (body.file) {
-                    console.log(response);
-
-                    console.log(typeof (response))
-
-
                     const formData = new FormData();
 
-                    formData.append('id', response.id);
+                    formData.append('id', response.data.id);
                     formData.append('file', body.file[0]);
 
                     const file = await axios.post('https://jira-api-spring.azurewebsites.net/cargar', formData)
