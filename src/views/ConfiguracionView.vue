@@ -28,8 +28,9 @@ const getReport = async () => {
 <template>
     <div class="app">
         <SideBar />
-        <div :class="`${useToggleMenuStore.expandido ? 'expandido' : 'colapsado'}`">
+        <div id="contenedor" :class="`${useToggleMenuStore.expandido ? 'expandido' : 'colapsado'}`">
             <div class="cont">
+                <h4 class="text-white">Aqui podra descargar un reporte con las incidencias credadas en el tablero de JIRA ATLASSIAN con un poco de información detallada relacionada a la incidencia. </h4>
                 <button class="btn btn-secondary" @click="getReport()">Descargar reporte de incidencias</button>
             </div>
         </div>

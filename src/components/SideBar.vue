@@ -14,7 +14,7 @@
             src="https://cdn-images.motor.es/image/m/694w.webp/fotos-noticias/2022/10/f1-hoy-gp-japon-suzuka-202290262-1665213879_6.jpg"
             alt="Foto del usuario">
 
-        <h4 class="nombre-usario">Nombre de usuairio</h4>
+        <h4 class="nombre-usario">Administrador Folios</h4>
         <div class="menu">
             <router-link to="/inicio" class="button">
                 <span class="material-icons">home</span>
@@ -26,7 +26,7 @@
             </router-link>
             <router-link to="/usuarios" class="button">
                 <span class="material-icons">people</span>
-                <span class="texto-menu">Usarios desarrolladores</span>
+                <span class="texto-menu">Usuarios desarrolladores</span>
             </router-link>
             <router-link to="/email" class="button">
                 <span class="material-icons">email</span>

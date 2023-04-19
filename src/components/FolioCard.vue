@@ -23,24 +23,24 @@ const bug = ref(props_folio.fields.summary.slice(0, 3) == 'BUG' ? true : false);
 						</div>
 					</section>
 					<section>
-						<span :class="bug ? 'badge text-bg-azul' : 'badge text-bg-azul-claro'">Estatus</span> <span
-							:class="bug ? 'badge bage-blanco color-negro' : 'badge bage-negro'">{{
+						<span :class="'badge text-bg-azul-claro'">Estatus</span> <span
+							:class="'badge bage-negro'">{{
 								fields.status.name }}</span>
 					</section>
 					<section>
-						<span :class="bug ? 'badge text-bg-azul' : 'badge text-bg-azul-claro'">Creada</span> <span
-							:class="bug ? 'badge bage-blanco color-negro' : 'badge bage-negro'">{{
+						<span :class="'badge text-bg-azul-claro'">Creada</span> <span
+							:class="'badge bage-negro'">{{
 								fields.created
 							}}</span>
 					</section>
 					<section>
-						<span :class="bug ? 'badge text-bg-azul' : 'badge text-bg-azul-claro'">Actualizada</span> <span
-							:class="bug ? 'badge bage-blanco color-negro' : 'badge bage-negro '">{{
+						<span :class="'badge text-bg-azul-claro'">Actualizada</span> <span
+							:class="'badge bage-negro '">{{
 								fields.updated }}</span>
 					</section>
 					<section class="mt-3">
 						<span
-							:class="bug ? 'badge text-bg-danger bage-blanco texto-azul-2' : 'bage-blanco badge texto-azul-3'">{{
+							:class="bug ? 'badge text-bg-morado' : 'badge text-bg-naranja'">{{
 								issue_type }}</span>
 					</section>
 				</div>

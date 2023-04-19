@@ -7,10 +7,9 @@ const useToggleMenuStore = useToggleMenu();
 <template>
 	<div class="app">
 		<SideBar />
-		<div :class="`${useToggleMenuStore.expandido ? 'expandido' : 'colapsado'}`">
-			<div class="cont">
-				<h1>No existe la ruta</h1>
-			</div>
+		<div id="contenedor" :class="`${useToggleMenuStore.expandido ? 'expandido' : 'colapsado'}`">
+				<h1 class="text-white">Estamos trabajando en la funcionalidad ...</h1>
+				<span class="material-icons text-white" style="font-size: 9rem">construction</span>
 		</div>
 	</div>
 </template>

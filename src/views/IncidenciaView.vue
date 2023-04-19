@@ -89,7 +89,7 @@ const submitForm = () => {
                             <div class="card mt-3 issue">
                                 <div class="card-header">
                                     <div class="row">
-                                        <span><strong>Adjuntos</strong>Archivos adjuntos y notificaciones</span>
+                                        <span><strong>Adjuntos  | </strong>Archivos adjuntos y notificaciones</span>
                                     </div>
                                 </div>
                                 <div class="card-body">
